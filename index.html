@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="logo"><img src="img/logo.png" alt="logo"></div>
+        <h1>Search Your Favorite Recipe</h1>
+        <p>A handful of simple ingredients tasty, fresh, vibrant flavors of Greek cooking</p>
+        <div class="search-container">
+            <input type="text" id="recipe-input" placeholder="Search for a meal...">
+            <button type="button" id="search-btn"><i class="fa fa-search"></i></button>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Latest Recipes</h2>
+        <div class="recipe-grid" id="recipe-grid">
+            </div>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 - All rights reserved</p>
+        <div class="social-icons">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+    </footer>
+
+    <button id="backToTop" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <div id="modal-body">
+                </div>
+            <div class="modal-footer">
+                <button class="close-btn-bottom">CLOSE</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
