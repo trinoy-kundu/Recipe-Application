@@ -1,3 +1,11 @@
+# Information for project submission
+
+## Assignment: 4
+### Name: TRINOY KUNDU
+### Email: trinoykundu@gmail.com
+
+
+
 # Recipe Application 🍳
 
 It is a modern, responsive web application that allows users to search for their favorite recipes using the **TheMealDB API**. It features a clean UI, a dynamic search system, and a detailed modal view for cooking instructions.
